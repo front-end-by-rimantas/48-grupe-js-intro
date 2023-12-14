@@ -1,0 +1,16 @@
+{
+    "name": "48-grupe-js-intro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "number": "node --watch kintamieji/number.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Rimantas (https://github.com/belauzas)",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
