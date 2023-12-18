@@ -49,3 +49,37 @@ const n2 = 6;
 const suma = n1 + n2;
 
 console.log(n1, '+', n2, '=', suma);
+
+console.clear();
+
+const n3 = 7;
+const n4 = 5;
+
+const k1 = n3 + n4;
+console.log(k1);
+
+const k2 = n3 - n4;
+console.log(k2);
+
+const k3 = n3 * n4;
+console.log(k3);
+
+const k4 = n3 / n4;
+console.log(k4);
+
+const k5 = n4 / n3;
+console.log(k5);
+
+console.log(0.1 + 0.2);
+console.log(0.3 - 0.2);
+console.log(0.3 - 0.1);
+
+console.log('% -------');
+
+const k6 = n3 % n4;     // liekana
+console.log(k6);
+
+console.log(10 % 3);
+console.log(10 % 4);
+console.log(10 % 5);
+console.log(10 % 6);
