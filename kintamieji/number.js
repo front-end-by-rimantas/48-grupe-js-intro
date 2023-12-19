@@ -16,6 +16,13 @@ KINTAMUJU INICIAVIMAS:
 - let (kai reiksme tures keistis)
 - var (NIEKADA, nebent zinai ka darai ir megsti nuotykius 👀)
 
+MATEMATINIAI PRISKIRIMO OPERATORIAI:
+a = a + 5;      ->      a += 5;
+a = a - 5;      ->      a -= 5;
+a = a * 5;      ->      a *= 5;
+a = a / 5;      ->      a /= 5;
+a = a % 5;      ->      a %= 5;
+
 */
 
 const a = 5;

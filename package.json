@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "array": "node --watch kintamieji/array.js",
         "boolean": "node --watch kintamieji/boolean.js",
         "string": "node --watch kintamieji/string.js",
         "number": "node --watch kintamieji/number.js",
