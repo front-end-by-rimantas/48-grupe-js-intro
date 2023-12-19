@@ -115,3 +115,15 @@ console.log(colors);
 
 const colors2 = `My favorite color: ${c1}, ${c2}, ${c3}, ${c4}, ${c5}.`;
 console.log(colors2);
+
+const x = 777;
+console.log('${x}');
+console.log("${x}");
+console.log(`${x}`);
+
+console.clear();
+
+const o1 = 1;
+const o2 = 2;
+const o3 = 3;
+console.log(o1, o2, o3);
