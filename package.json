@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "sum": "node --watch functions/sum.js",
+        "empty": "node --watch functions/empty.js",
         "array": "node --watch kintamieji/array.js",
         "boolean": "node --watch kintamieji/boolean.js",
         "string": "node --watch kintamieji/string.js",
