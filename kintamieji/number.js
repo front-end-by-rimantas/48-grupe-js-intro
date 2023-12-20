@@ -23,6 +23,10 @@ a = a * 5;      ->      a *= 5;
 a = a / 5;      ->      a /= 5;
 a = a % 5;      ->      a %= 5;
 
+MATEMATINIAI OPERATORIAI:
+++ (dydinti 1 vienetu)
+-- (mazinti 1 vienetu)
+
 */
 
 const a = 5;
@@ -90,3 +94,67 @@ console.log(10 % 3);
 console.log(10 % 4);
 console.log(10 % 5);
 console.log(10 % 6);
+
+console.clear();
+
+let index = 0;
+console.log(index);
+
+++index;
+console.log(index);
+
+index++;
+console.log(index);
+
+++index;
+console.log(index);
+
+index++;
+console.log(index);
+
+++index;
+console.log(index);
+
+index++;
+console.log(index);
+
+console.clear();
+
+let i = 0;
+
+console.log(i++);
+console.log(i++);
+console.log(i++);
+console.log(i++);
+console.log(i++);
+console.log(i++);
+
+console.log('--------------');
+let j = 0;
+
+console.log(++j);
+console.log(++j);
+console.log(++j);
+console.log(++j);
+console.log(++j);
+console.log(++j);
+
+console.log('--------------');
+let k = 0;
+
+console.log(k--);
+console.log(k--);
+console.log(k--);
+console.log(k--);
+console.log(k--);
+console.log(k--);
+
+console.log('--------------');
+let l = 0;
+
+console.log(--l);
+console.log(--l);
+console.log(--l);
+console.log(--l);
+console.log(--l);
+console.log(--l);

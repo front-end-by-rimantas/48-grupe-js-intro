@@ -43,16 +43,34 @@ console.log('Average:', average);
 
 
 // index:       0, 1, 2, 3, 4, ....
-const marks = [10, 2, 8, 4, 6, 10];
+const marks = [10, 2, 8, 4, 6];
+
+console.log('>>>', marks[0]);
+console.log('>>>', marks[1]);
+console.log('>>>', marks[2]);
+console.log('>>>', marks[3]);
+console.log('>>>', marks[4]);
+console.log('>>>', marks[5]);
 
 let marksArraySum = 0;
+let index = 0;
 
-marksArraySum += marks[0];
-marksArraySum += marks[1];
-marksArraySum += marks[2];
-marksArraySum += marks[3];
-marksArraySum += marks[4];
-marksArraySum += marks[5];
+marksArraySum += marks[index++];
+console.log(index, marksArraySum);
+
+marksArraySum += marks[index++];
+console.log(index, marksArraySum);
+
+marksArraySum += marks[index++];
+console.log(index, marksArraySum);
+
+marksArraySum += marks[index++];
+console.log(index, marksArraySum);
+
+marksArraySum += marks[index++];
+console.log(index, marksArraySum);
+
+console.log('Sum:', marksArraySum, 'index:', index);
 
 const marksArrayLength = marks.length;
 
