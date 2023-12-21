@@ -45,3 +45,8 @@ pomidoras();
 pomidoras();
 pomidoras();
 pomidoras();
+
+
+function empty() {
+    return false;
+}
