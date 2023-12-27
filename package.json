@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "for": "node --watch ciklas/for.js",
         "if": "node --watch palyginimas/if.js",
         "sum": "node --watch functions/sum.js",
         "empty": "node --watch functions/empty.js",
