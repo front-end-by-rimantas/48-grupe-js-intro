@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "marksAverage": "node --watch functions/marksAverage.js",
         "for": "node --watch ciklas/for.js",
         "if": "node --watch palyginimas/if.js",
         "sum": "node --watch functions/sum.js",
