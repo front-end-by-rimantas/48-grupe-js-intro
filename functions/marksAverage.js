@@ -7,6 +7,8 @@ const marks6 = [1, 10];                             // 5.5
 const marks7 = [];
 const marks8 = [10, -10];                           // 10
 const marks9 = [10, 2, 0, -6, 8, -3.14, 4, 2.727, 6, 11, 200, 1000, 10.99999, 10.00001];
+const marks10 = [10, -10, 0, 0.99999, 10.0000001, 3.14, 'labas',
+    true, false, [], NaN, Infinity, -Infinity, undefined, marksAverage];
 
 function marksAverage(marks) {
     if (marks.length === 0) {
@@ -19,7 +21,8 @@ function marksAverage(marks) {
     for (let i = 0; i < marks.length; i++) {
         const mark = marks[i];
 
-        if (mark > 0) {
+        // if (mark >= 1 && mark <= 10 && Number.isInteger(mark)) {
+        if (typeof mark === 'number' && mark % 1 === 0 && mark >= 1 && mark <= 10) {
             sum += mark;
             count++;
         }
@@ -54,3 +57,6 @@ console.log(average8, '-->', 10);
 
 const average9 = marksAverage(marks9);
 console.log(average9, '-->', 6);
+
+const average10 = marksAverage(marks10);
+console.log(average10, '-->', 10);
