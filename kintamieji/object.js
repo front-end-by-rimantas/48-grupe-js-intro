@@ -1,3 +1,5 @@
+import spausdintiSvente from './spausdintiSvente.js';
+
 /*
 OBJECT - objektas
 */
@@ -93,10 +95,10 @@ const summer = {
         {
             name: 'Jonines',
             date: {
-                year: 2024,
+                year: 2023,
                 month: 6,
                 day: 23,
-            }
+            },
         },
         {
             name: 'Mindaugo karunavimas',
@@ -104,6 +106,14 @@ const summer = {
                 year: 2024,
                 month: 7,
                 day: 6,
+            }
+        },
+        {
+            name: 'Varom prie juros kol galim',
+            date: {
+                year: 2024,
+                month: 8,
+                day: 31,
             }
         },
     ],
@@ -127,3 +137,21 @@ console.log(summer.months);
 console.log(summer.months[0]);
 console.log(summer.months[1]);
 console.log(summer.months[2]);
+
+console.clear();
+
+console.log(summer.holidays[0].name);
+console.log(summer.holidays[0].date);
+console.log(summer.holidays[0].date.year);
+console.log(summer.holidays[0].date.month);
+console.log(summer.holidays[0].date.day);
+
+console.clear();
+
+// 1) Jonines - 2024m Birzelio 23d.
+// 2) Mindaugo karunavimas - 2024m Liepos 6d.
+
+for (let i = 0; i < summer.holidays.length; i++) {
+    const text = spausdintiSvente(i, summer.holidays[i]);
+    console.log(text);
+}
