@@ -5,6 +5,9 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
+        "sort": "node --watch methods/sort.js",
+        "map": "node --watch methods/map.js",
+        "filter": "node --watch methods/filter.js",
         "object": "node --watch kintamieji/object.js",
         "biggest": "node --watch uzd/biggest.js",
         "number-size": "node --watch uzd/number-size.js",
