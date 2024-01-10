@@ -5,6 +5,8 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
+        "students": "node --watch uzd/students.js",
+        "reduce": "node --watch methods/reduce.js",
         "sort": "node --watch methods/sort.js",
         "map": "node --watch methods/map.js",
         "filter": "node --watch methods/filter.js",
