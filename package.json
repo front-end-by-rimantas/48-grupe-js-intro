@@ -5,6 +5,7 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
+        "ternary": "node --watch palyginimas/ternary.js",
         "students": "node --watch uzd/students.js",
         "reduce": "node --watch methods/reduce.js",
         "sort": "node --watch methods/sort.js",
